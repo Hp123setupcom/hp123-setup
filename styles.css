@@ -1,0 +1,187 @@
+* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+.main-header {
+    background-color: #d3d3d3; /* Light gray background */
+    padding: 10px 20px; /* Space inside the header */
+}
+
+.container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space elements to opposite corners */
+    align-items: center; /* Vertically align the content */
+}
+
+.left-align {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Font size for the left text */
+    font-weight: bold; /* Make it bold */
+    color: #000; /* Black color */
+}
+
+.right-align {
+    margin: 0; /* Remove default margin */
+    font-size: 1.2rem; /* Font size for the right text */
+    color: #000; /* Black color */
+    font-weight: normal; /* Normal weight for the right text */
+}
+
+/* Content */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.download-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.download-btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #0000ff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background-color: #00008b;
+}
+
+.setup-steps h3 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.setup-steps ul {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    max-width: 600px;
+}
+
+.setup-steps ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.setup-steps ul li a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.setup-steps ul li a:hover {
+    text-decoration: underline;
+}
+.printer-models {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.printer-models h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.model-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.model {
+    flex: 1 1 20%;
+    max-width: 250px;
+    text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.model h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.model p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #333;
+}
+.printer-network, .printer-troubleshooting {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.printer-network h2, .printer-troubleshooting h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.printer-network p, .printer-troubleshooting p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.printer-network ul {
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.printer-network ul li {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.printer-network a, .printer-troubleshooting a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.printer-network a:hover, .printer-troubleshooting a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: #666;
+}
